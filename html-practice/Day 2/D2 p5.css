@@ -1,0 +1,19 @@
+div {
+    background: blueviolet;
+    height: 100px;
+
+}
+
+p{
+    color: white;
+}
+
+.lower-div p{
+    background: red;
+    height: 200px;
+    color: yellow;
+}
+.lower-div h1{
+    color: beige;
+}
+

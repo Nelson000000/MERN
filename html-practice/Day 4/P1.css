@@ -1,0 +1,22 @@
+.container{
+    background-color: lightcoral;
+    position: relative;
+    height: 50vh;
+}
+
+.navbar{
+    background-color: teal;
+    color: white;
+    height: 30px;
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+}
+.hello{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

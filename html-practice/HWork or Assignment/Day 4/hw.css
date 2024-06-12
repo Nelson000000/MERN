@@ -1,0 +1,43 @@
+.content-container{
+    padding: 50px;
+    background-color: white;
+
+    
+    
+}
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 15px
+}
+
+.back img{
+    position: relative;
+    top: 8px;
+    left: 20px;
+    height: 20px;
+    width: 20px;
+
+    
+}
+
+.like img{
+    position: relative;
+    top: 8px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+
+    
+}
+
+.more img{
+    position: relative;
+    top: 8px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+
+    
+}

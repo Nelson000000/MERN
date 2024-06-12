@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: blue;
+}
+
+.login-form{
+    padding: 40px;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    flex-direction: column;
+}
+button{
+    color: white;
+    border: 0;
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(50, 143, 224);
+}
+
+.button1{
+    color: white;
+    border: 0;
+    height: 30px;
+    width: 500px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(50, 143, 224);
+}
+
+.button2{
+    color: white;
+    border: 0;
+    height: 30px;
+    width: 500px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(50, 143, 224);
+    display: flex;
+}
+
+.button3{
+    color: white;
+    border: 0;
+    height: 30px;
+    width: 500px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(50, 143, 224);
+}
+
+ .contain-container{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+
+
+
+/* *{
+    margin: 0;
+}
+
+button{
+    color: white;
+    border: 0;
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(50, 143, 224);
+}
+
+body{
+    background-color: rgb(187, 232, 211);
+}
+
+button:hover{
+    background-color: blueviolet;
+
+}
+
+.content-container{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    width: 150vh;
+    justify-content: start;
+    align-items: center;
+}
+
+.login-form{
+    background-color: rgb(248, 245, 241);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#login-title{
+    text-align: center;
+}
+
+.checkbox-container{
+    display: flex;
+    gap: 5px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

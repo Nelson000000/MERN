@@ -1,0 +1,52 @@
+
+.container{
+    background-color: teal;
+    border: 5px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+button{
+    background-color: blueviolet;
+    color: aliceblue;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    border: 0;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 40px;
+}
+
+button:hover{
+    background-color: rgb(48, 190, 90);
+    cursor: pointer;
+}
+
+.line::first-letter{
+    font-size: 40px;
+    color: cadetblue;
+}
+
+.line::first-line{
+    color: red;
+}
+
+.line::before{
+    content: "before";
+}
+
+.line::after{
+    content: "after";
+}
+
+.my-flex{
+    height: 100vh;
+    display: flex;
+    background: skyblue;
+    justify-content: center;
+    align-items: center;
+
+}

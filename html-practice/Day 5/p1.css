@@ -1,0 +1,40 @@
+.main-container{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation-name: rotator;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    /* animation-delay: 3s; */
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes rotator {
+    from{
+        background-color: aquamarine;
+        transform: rotate(0deg);
+    }
+    to{
+        background-color: lightcoral;
+        transform: rotate(180deg);
+        border-radius: 100%;
+    }
+    
+}
+
+p{
+    color:cyan;
+    transition: 200ms;
+}
+
+p:hover{
+    transition: all 1;
+    transform: scale(2) translate(20px) translateY(-20px) rotate(90deg);
+    transition: 4s cubic-bezier(0.075,0.82,0.165,1); 
+    
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+button{
+    color: white;
+    border: 0;
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(50, 143, 224);
+}
+
+body{
+    background-color: rgb(187, 232, 211);
+    font-family: "Tiny5", sans-serif;
+}
+
+input{
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button:hover{
+    background-color: blueviolet;
+
+}
+
+.logo-container img{
+    width: 150px;
+}
+
+.content-container{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: start;
+    align-items: center;
+}
+
+.login-form{
+    background-color: rgb(248, 245, 241);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+#login-title{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.password-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.submit-container{
+    display: flex;
+    justify-content: center;
+
+}
